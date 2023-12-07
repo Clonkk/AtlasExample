@@ -31,23 +31,14 @@ For ProjectA/ the nim.cfg files was locally inside the folder. Using atlas you c
 For example : 
 
 ```sh
-atlas use db_connector
 atlas use norm
+atlas use db_connector
 ```
 
-This will create ``AtlasExample.nimble`` and ``nim.cfg`` and clone db_connector and norm inside ``deps``.
+This will create ``AtlasExample.nimble`` and ``nim.cfg``.
 
 Now, because ``norm`` was added to the **workspace**, all project will be aware of it. This is the closest equivalent to ``nimble develop``.
 
-## Adding a project from an existing repo
-
-First, you can modify everything that is in ``deps/`` as they are git repository.
-
-But if you want to add workspace project from an existing repo, simply use ``atlas clone (...)`` from the root of the workspace.
-
-```sh
-atlas clone https://github.com/SciNim/getting-started/
-```
 
 ## Locking your dependencies
 

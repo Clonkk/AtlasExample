@@ -1,0 +1,94 @@
+{
+  "items": {
+    "packages": {
+      "dir": "packages",
+      "url": "https://github.com/nim-lang/packages",
+      "commit": "ac2b6a176aadac1fe7c9b14099947d06385bc0c5"
+    },
+    "norm": {
+      "dir": "norm",
+      "url": "https://github.com/moigagoo/norm",
+      "commit": "203a09b4921d95d80fe0439f8d589a73d55577e7"
+    },
+    "nim-clblast": {
+      "dir": "nim-clblast",
+      "url": "https://github.com/numforge/nim-clblast",
+      "commit": "cdadb10dd85b95c9e7248f0b9661ad1e7616efe6"
+    },
+    "untar": {
+      "dir": "untar",
+      "url": "https://github.com/dom96/untar",
+      "commit": "b49f6ac94974fe11cb3d396a8a9c533824a497a7"
+    },
+    "zip": {
+      "dir": "zip",
+      "url": "https://github.com/nim-lang/zip",
+      "commit": "06f5b0a0767b14c7595ed168611782be69e61543"
+    },
+    "lowdb": {
+      "dir": "lowdb",
+      "url": "https://github.com/PhilippMDoerner/lowdb",
+      "commit": "937ebb84bf08d24b97b2a9b8c86c37cd39fab520"
+    },
+    "db_connector": {
+      "dir": "db_connector",
+      "url": "https://github.com/nim-lang/db_connector",
+      "commit": "e65693709dd042bc723c8f1d46cc528701f1c479"
+    },
+    "timelog": {
+      "dir": "timelog",
+      "url": "https://github.com/Clonkk/timelog",
+      "commit": "c3970e7290fa5eff8964b8e523f6f2a9184f5a87"
+    },
+    "stb_image-Nim": {
+      "dir": "stb_image-Nim",
+      "url": "https://gitlab.com/define-private-public/stb_image-Nim.git",
+      "commit": "ba5f45286bfa9bed93d8d6b941949cd6218ec888"
+    },
+    "threading": {
+      "dir": "threading",
+      "url": "https://github.com/nim-lang/threading",
+      "commit": "06505e8ae886a4da018a988b88da9b5ac36072b5"
+    },
+    "nimcuda": {
+      "dir": "nimcuda",
+      "url": "https://github.com/andreaferretti/nimcuda",
+      "commit": "5c3cf233726549b63266f6dba14788f30e0405b6"
+    },
+    "nimcl": {
+      "dir": "nimcl",
+      "url": "https://github.com/andreaferretti/nimcl",
+      "commit": "3bf5ebc7290425a5634854cc8e8b30a9a3408d82"
+    },
+    "opencl": {
+      "dir": "opencl",
+      "url": "https://github.com/nim-lang/opencl",
+      "commit": "bad8d9c13821b21fa95a1dc78d13ecfa51b93944"
+    },
+    "nimblas": {
+      "dir": "nimblas",
+      "url": "https://github.com/andreaferretti/nimblas",
+      "commit": "464c65cd001a27d5c364baa86dfcf19597535cf3"
+    },
+    "nimlapack": {
+      "dir": "nimlapack",
+      "url": "https://github.com/andreaferretti/nimlapack",
+      "commit": "7a86e9aa7b2cecbc56735d80d0574b7516a8206e"
+    },
+    "Arraymancer": {
+      "dir": "Arraymancer",
+      "url": "https://github.com/mratsim/Arraymancer",
+      "commit": "12610a3a29d61c2bccb8a24fd744634c9809406d"
+    }
+  },
+  "nimcfg": "############# begin Atlas config section ##########\n--noNimblePath\n--path:\"norm/src\"\n--path:\"deps/db_connector/src\"\n--path:\"deps/lowdb/src\"\n############# end Atlas config section   ##########\n",
+  "nimbleFile": {
+    "filename": "AtlasExample.nimble",
+    "content": "requires \"norm\"\n\nrequires \"db_connector\"\n"
+  },
+  "hostOS": "linux",
+  "hostCPU": "amd64",
+  "nimVersion": "2.0.0 a488067a4130f029000be4550a0fb1b39e0e9e7c",
+  "gccVersion": "11.4.0",
+  "clangVersion": ""
+}

@@ -1,2 +1,7 @@
-deps="deps"
-resolver="MaxVer"
+{
+  "deps": "deps",
+  "overrides": "",
+  "plugins": "",
+  "resolver": "SemVer",
+  "graph": null
+}
